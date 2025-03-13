@@ -7,14 +7,10 @@ import shutil
 
 '''
 TODO:
-adding y/n to confirm stuff
 name current environment, be able to save without name
  * add hash of each to see if current
 rename action?
 configurable ask for confirmation
-adding color
-better docs and help information
-better list of args
 configs to thing like environment path and case sensitivity
 '''
 from src.actions.action_manager import setup_actions_as_subcommands, perform_command

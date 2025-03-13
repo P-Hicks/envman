@@ -6,3 +6,4 @@ dist
 env_manager.spec 
 env_manager.pyx
 *.pyc
+*.env

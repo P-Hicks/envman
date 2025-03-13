@@ -43,4 +43,5 @@ def perform_command(args):
     for action in default_action_manager.actions:
         if action.cmd == cmd:
             action.action.run_action(args)
-        return
+            
+    return

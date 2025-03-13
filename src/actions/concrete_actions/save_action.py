@@ -33,7 +33,5 @@ class SaveAction(AbstractAction):
             dst=file_path,
             src=current_in_use_env_file_path,
         )
-        # env = EnvFileEnvironmentManager().parse_environment_from_env_file(env_name, current_in_use_env_file_path)
-        # json_str = JsonFileEnvironmentManager().write_json_file_from_environment(path_to_env_file=file_path, env=env)
         
         return super().run_action(args)

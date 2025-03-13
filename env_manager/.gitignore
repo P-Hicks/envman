@@ -1,0 +1,8 @@
+build
+dist
+*.c
+*.cpython
+*.so
+env_manager.spec 
+env_manager.pyx
+*.pyc

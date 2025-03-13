@@ -7,3 +7,4 @@ env_manager.spec
 env_manager.pyx
 *.pyc
 *.env
+__pycache__/

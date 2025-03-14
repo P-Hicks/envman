@@ -8,6 +8,7 @@ cython = "*"
 setuptools = "*"
 pyinstaller = "*"
 packaging = "*"
+pywin32-ctypes = "*"
 
 [dev-packages]
 

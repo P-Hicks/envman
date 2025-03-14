@@ -8,3 +8,4 @@ env_manager.pyx
 *.pyc
 *.env
 __pycache__/
+env_manager.cp311-win_amd64.pyd

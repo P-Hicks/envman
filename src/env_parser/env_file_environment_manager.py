@@ -1,6 +1,6 @@
 from src.environment.environment import Environment, EnvironmentVariable
 from src.utils.file_utils import write_string_to_file, read_file_to_string
-from src.configs import is_case_sensitive, path_to_environment_data
+from src.configs.configs import is_case_sensitive, path_to_environment_data
 from src.utils.condition_utils import none_are_null
 
 def generate_path_to_env(env_name):
@@ -8,8 +8,6 @@ def generate_path_to_env(env_name):
         env_name = env_name.lower()
     file_path = f'{path_to_environment_data}/{env_name}.env'
     return file_path
-
-
 
 class EnvFileEnvironmentManager:
      

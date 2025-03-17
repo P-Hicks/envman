@@ -8,7 +8,7 @@ from src.utils.console_utils import confirm_action
 from src.utils.file_utils import write_string_to_file, read_file_to_string
 from ..abstract_action import AbstractAction
 import os
-from src.configs import current_in_use_env_file_path, example_env_file_path
+from src.configs.configs import current_in_use_env_file_path, example_env_file_path
 from src.actions.action_manager import register_action
 from src.env_parser.env_file_environment_manager import generate_path_to_env
 
